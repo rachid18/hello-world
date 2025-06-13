@@ -37,6 +37,11 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "crm_project.contacts",
+    "crm_project.opportunities",
+    "crm_project.interactions",
+    "crm_project.accounts",
+    "crm_project.api",
 ]
 
 MIDDLEWARE = [
